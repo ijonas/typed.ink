@@ -1,5 +1,5 @@
-Hapi = require('Hapi');
-Good = require('good');
+var Hapi = require('Hapi'),
+    Good = require('good');
 
 server = new Hapi.Server('localhost', 8000);
 server.route({
